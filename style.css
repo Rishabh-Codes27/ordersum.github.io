@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root{
+    --Paleblue: hsl(225, 100%, 94%);
+    --Brightblue: hsl(245, 75%, 52%);
+    --Verypaleblue: hsl(225, 100%, 98%);
+    --Desaturatedblue: hsl(224, 23%, 55%);
+    --Darkblue: hsl(223, 47%, 23%);
+}
+
+body{
+    background-image: url("images/pattern-background-desktop.svg");
+    background-color: hsl(225, 100%, 94%);
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    font-family: 'red Hat Display';
+    display: flex;
+    height: 90vh;
+
+}
+
+/* .container{
+    padding: 10px 0px;
+} */
+
+.main{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.container{
+    padding-top: 50px;
+}
+
+.pic1 img{
+    width: 100%;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.body1{
+    padding:10px 0px;
+}
+
+.body1 h2{
+color: var(--Darkblue);
+font-weight: 700;
+}
+
+.body1 p{
+    color: var(--Desaturatedblue);
+}
+
+.body2{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;;
+    background-color: var(--Verypaleblue);
+}
+
+
+.body2 .text{
+    /* justify-content: space-between; */
+    display: flex;
+    flex-direction: column;
+}
+
+.body3{
+    padding:10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.body3 p{
+    color: var(--Desaturatedblue);
+
+}
+
+.body3 a{
+    text-decoration: none;
+    font-style: bold;
+    font-weight: 700;
+}
+
+button{
+    box-shadow: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background: var(--Brightblue);
+    font-weight: 100;
+    font-style: bold;
+    font-size: 150x;
+    border-radius: 7px;
+    padding: 15px 0px;
+    width: 350px;
+    outline: transparent;
+}
+
+.body3 button:hover{
+    background: hsla(245, 75%, 52%, 0.7);
+}
